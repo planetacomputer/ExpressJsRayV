@@ -20,3 +20,11 @@ For more help setting up a comprehensive Gulp.js workflow, check out [Web Projec
 
 ## More Stuff
 Check out some of my [other courses on lynda.com](http://lynda.com/rayvillalobos). You can also check out my [youtube channel](http://youtube.com/planetoftheweb), [follow me on twitter](http://twitter.com/planetoftheweb), or read [my blog](http://raybo.org).
+
+
+1- Creamos un repositorio nuevo en GitHib
+2- Vinculamos el repositorio nuevo de GitHub como remoto de nuestro repositorio local, y le damos el nombre arbitrario de 'alternative':
+git remote add alternative https://github.com/planetacomputer/ExpressJsRayV.git
+3- Commiteo mis cambios
+4- Queremos pushear al repositorio alternative en una rama nueva cuyo nombre escogemos(01_03e) los cambios efectuados sobre una rama específica local:
+git push -u alternative  01_03b:01_03e
